@@ -1,6 +1,6 @@
 {
   "name": "mock-getcomputedstyle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/mock.js",
   "description": "Mock window.getComputedStyle - the biggest slowdown in RTL tests",
   "repository": {
