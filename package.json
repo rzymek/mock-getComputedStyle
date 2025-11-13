@@ -1,11 +1,15 @@
 {
   "name": "mock-getcomputedstyle",
   "version": "1.0.0",
+  "main": "lib/mock.js",
   "description": "Mock window.getComputedStyle - the biggest slowdown in RTL tests",
   "scripts": {
     "prepublish": "npm run build",
     "build": "tsc"
   },
+  "files": [
+    "lib"
+  ],
   "keywords": ["getComputedStyle","vitest"],
   "author": "krzysztof.rzymkowski@gmail.com",
   "license": "MIT",
