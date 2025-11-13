@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "lib/mock.js",
   "description": "Mock window.getComputedStyle - the biggest slowdown in RTL tests",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rzymek/mock-getComputedStyle.git"
+  },
   "scripts": {
     "prepublish": "npm run build",
     "build": "tsc"
